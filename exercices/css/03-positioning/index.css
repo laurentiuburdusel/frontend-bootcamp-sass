@@ -2,3 +2,42 @@
     03. Ways of positioning
     position:absolute/relative/sticky
 */
+
+.box-model {
+    /* margin: 30px 20px 30px 20px; */
+
+    border: 3px solid red;
+
+
+    width: 200px;
+    height: 300px;
+
+    background-color: lightblue;
+    color: darkorange;
+
+    /* absolut la primul container care are pozitie relativa */
+    /* position: absolute;
+
+    top: 0;
+    left: 0; */
+}
+
+.big-container {
+    width: 700px;
+    height: 700px;
+    /* position: relative; */
+
+    border: 2px solid green;
+}
+
+.absolute {
+    /* pozitionat la nivel de window */
+    position: sticky;
+
+    top: 0;
+    left: 0;
+}
+
+.relative {
+    position: relative;
+}
